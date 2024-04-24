@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: rgb(21, 20, 20);
+  font-family: 'Poppins', sans-serif;
+}
+.contain{
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+a{
+  text-decoration: none !important;
+  color: white ;
+  cursor: pointer ;
+}
+
+/* meida  */
+@media (max-width:440px) {
+  h1{
+    font-size: 2rem;
+  }
+}

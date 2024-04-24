@@ -1,0 +1,28 @@
+.skill {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+skill_sh {
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill_sh {
+    min-height: fit-content;
+}
+
+.skill_sh img {
+    width: 80px;
+    height: 80px;
+}

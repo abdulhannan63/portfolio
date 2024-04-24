@@ -1,0 +1,38 @@
+.contact{
+    margin-bottom: 6rem;
+}
+.contact_right label{
+    font-size: 22px;
+    font-weight: 500;
+}
+.contact_right input{
+    border: none;
+    width: 600px;
+    height: 48px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: rgb(31, 30, 30);
+    font-size: 20px;
+}
+.contact_right textarea{
+    background: rgb(31, 30, 30);
+    width: 600px;
+    border: none;
+    padding: 25px;
+    border-radius: 10px;
+}
+.btn{
+    transition: .3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+/* media */
+@media (max-width:690px) {
+    .contact_right input{
+        width: 90%;
+    }
+    .contact_right textarea{
+        width: 90%;
+    }
+}

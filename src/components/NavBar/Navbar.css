@@ -1,0 +1,77 @@
+.navBar {
+    width: 100%;
+    /* height: 5rem; */
+    padding: 4px 0;
+    position: fixed;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.contain .logo {
+    font-family: 'Allison';
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+span {
+    /* color: rgb(243, 188, 50); */
+    font-family: 'Allison';
+}
+
+ul li {
+    display: inline-block;
+    margin: auto 1rem;
+    margin: auto 10px;
+    list-style: none;
+    cursor: pointer;
+}
+.under{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+button:hover a{
+    background: #ffc107 ;
+}
+.menuIcon {
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+@media  (max-width: 838px){
+    .menuIcon{
+        display: block;
+    }
+    .listItem{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 200px;
+        height: 100vh;
+        text-align: center;
+        z-index: -1;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+    .listItem li{
+        
+        display: block;
+        margin: 25px 40px;
+        text-align: center;
+    }
+    .hide_menu{
+        right: -200px;
+    }
+   
+    .logo ,.logo span{
+        font-size: 1.5rem !important;
+    }
+
+}

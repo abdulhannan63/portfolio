@@ -1,0 +1,46 @@
+.mywork{
+    margin-bottom: 5rem;
+}
+.mywork hr{
+    margin-bottom: 10%;
+}
+.worklist {
+    display: flex;
+    /* width: 70%; */
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main{
+    flex-basis: 31%;
+    position: relative;
+}
+.main img{
+    width: 100%;
+    border-radius: 10px;
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,15,152,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-left: 70%;
+    transition: 0.5s;
+}
+.main:hover .caption{
+    opacity: 1;
+    padding-left: 0;
+}
+.caption img{
+    width: 33px;
+}

@@ -1,0 +1,22 @@
+.skills {
+    margin: 3rem auto;
+}
+
+span {
+    font-size: 30px;
+    font-family: 'Poppins';
+    background: linear-gradient(270deg, rgb(243, 188, 50) 10%, white 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:430px) {
+    .about p {
+        font-size: 14px;
+    }
+    .about p span{
+        font-size: 14px;
+
+    }
+}
